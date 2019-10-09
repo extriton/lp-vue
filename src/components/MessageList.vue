@@ -61,7 +61,8 @@ export default {
             author: this.author,
             text: this.text,
         })
-
+        this.author = ''
+        this.text = ''
       }
   }
 }
