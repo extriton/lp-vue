@@ -26,7 +26,7 @@
                       :disabled="isDisableForm"
             >
             </textarea>
-            <button @click="onSendMessage()" :disabled="isDisableForm">
+            <button @click="onSendMessage()" :disabled="isDisableForm || !author || !text">
                 Отправить сообщение
             </button>
         </div>
