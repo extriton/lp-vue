@@ -19,7 +19,6 @@ import { mapGetters } from 'vuex'
 
 export default {
   name: 'SubjectList',
-  props: ['subjectId'],
   computed: {
     subjectList () {
       return this.SUBJECTS
