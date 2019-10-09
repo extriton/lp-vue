@@ -24,7 +24,8 @@
             <textarea class="message-input-form__text" placeholder="Введите сообщение"
                       v-model="text"
                       :disabled="isDisableForm"
-            ></textarea>
+            >
+            </textarea>
             <button @click="onSendMessage()" :disabled="isDisableForm">
                 Отправить сообщение
             </button>
